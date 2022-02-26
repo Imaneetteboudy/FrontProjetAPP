@@ -2,7 +2,7 @@ package com.example.gestionstock.models;
 
 import java.io.Serializable;
 
-public class Article implements Serializable {
+public class  Article implements Serializable {
 
     private int id;
     private String label;

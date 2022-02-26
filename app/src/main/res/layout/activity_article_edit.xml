@@ -16,7 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Label"
+            android:background="#F3CBCB"
+            android:backgroundTint="#F3CBCB"
+            android:fontFamily="serif"
+            android:text="Libelle"
+            android:textAlignment="center"
+            android:textColor="#8E5454"
             android:textSize="30sp" />
 
         <EditText
@@ -24,12 +29,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:text="inserer libelle "
+            android:textAlignment="center"
+            android:textColor="#EAC9C9"
             android:textSize="30sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Price"
+            android:background="#F3CBCB"
+            android:fontFamily="serif"
+            android:text="Prix"
+            android:textAlignment="center"
+            android:textColor="#8E5454"
             android:textSize="30sp" />
 
         <EditText
@@ -37,13 +50,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:text="inserer prix"
+            android:textAlignment="center"
+            android:textColor="#EAC9C9"
             android:textSize="30sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Category"
+            android:background="#F3CBCB"
+            android:fontFamily="serif"
+            android:text="Categorie"
+            android:textAlignment="center"
+            android:textColor="#8E5454"
             android:textSize="30sp" />
 
         <Spinner
@@ -57,26 +77,33 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#F3EFEF"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/update"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="20dp"
-            android:background="#0F0"
-            android:text="Update" />
+            android:layout_weight="1"
+            android:background="#A36766"
+            android:backgroundTint="#6058AA"
+            android:shadowColor="#9F5E5E"
+            android:text="Update"
+            android:textColor="#F3B3B3"
+            app:iconTint="#784040" />
 
         <Button
             android:id="@+id/delete"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="20dp"
+            android:layout_weight="1"
             android:background="#F00"
-            android:text="Delete" />
+            android:text="Delete"
+            app:cornerRadius="60dp"
+            app:strokeColor="#C88888" />
 
     </LinearLayout>
 

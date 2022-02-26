@@ -17,7 +17,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Title"
-            android:textSize="30sp" />
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FF6666"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/category_title_edit"

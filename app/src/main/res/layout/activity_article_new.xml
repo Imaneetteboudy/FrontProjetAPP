@@ -16,7 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Label"
+            android:background="#F3CBCB"
+            android:fontFamily="serif"
+            android:text="Libelle"
+            android:textAlignment="center"
+            android:textColor="#8E5454"
             android:textSize="30sp" />
 
         <EditText
@@ -24,13 +28,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:text="inserer libelle"
+            android:textAlignment="center"
+            android:textColor="#F3CBCB"
             android:textSize="30sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Price"
+            android:background="#F3CBCB"
+            android:backgroundTint="#F3CBCB"
+            android:fontFamily="serif"
+            android:text="Prix"
+            android:textAlignment="center"
+            android:textColor="#8E5454"
             android:textSize="30sp" />
 
         <EditText
@@ -38,13 +50,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:text="inserer prix"
+            android:textAlignment="center"
+            android:textColor="#F3CBCB"
             android:textSize="30sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Category"
+            android:background="#F3CBCB"
+            android:backgroundTint="#F3CBCB"
+            android:fontFamily="serif"
+            android:text="Categorie"
+            android:textAlignment="center"
+            android:textColor="#8E5454"
             android:textSize="30sp" />
 
         <Spinner
@@ -63,11 +83,13 @@
 
         <Button
             android:id="@+id/save"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#0F0"
-            android:text="Save" />
+            android:background="#729C72"
+            android:backgroundTint="#954949"
+            android:text="Enregistrer" />
 
 
 
